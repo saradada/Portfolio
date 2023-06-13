@@ -1,0 +1,36 @@
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    padding: 6px 12px;
+    margin: 0 5px;
+  }
+
+  .button:hover {
+    background-color: pink;
+  }
+</style>
+<div>Sara Dada is a Business Administration student at Cal Poly SLO passionate about product management and design.
+</div>
+<div class="container">
+  <a href="https://saradada.com/archive">
+    <button class="button">All</button>
+  </a>
+  <a href="https://saradada.com/scootigo">
+    <button class="button">hey again</button>
+  </a>
+  <a href="https://saradada.com/scootigo">
+    <button class="button">Design</button>
+  </a>
+  <a href="https://saradada.com/techethics">
+    <button class="button">Tech Ethics</button>
+  </a>
+</div>
